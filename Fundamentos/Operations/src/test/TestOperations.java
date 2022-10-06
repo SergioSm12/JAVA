@@ -23,10 +23,7 @@ public class TestOperations {
         //compatible con lon y int no
         var result3 = Operations.sumar(5, 3L);
         
-<<<<<<< HEAD
         System.out.println("H44ola");
-=======
-        System.out.println("Hol11a");
->>>>>>> development
+
     }
 }
