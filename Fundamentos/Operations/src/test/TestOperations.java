@@ -22,5 +22,7 @@ public class TestOperations {
         //la inferencia hace que use el double debido a que este si es 
         //compatible con lon y int no
         var result3 = Operations.sumar(5, 3L);
+        
+        System.out.println("Hola");
     }
 }
