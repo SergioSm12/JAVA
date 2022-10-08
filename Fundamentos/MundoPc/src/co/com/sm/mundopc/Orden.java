@@ -29,7 +29,7 @@ public class Orden {
     public void mostrarOrden() {
         System.out.println("Orden # " + this.idOrden);
         System.out.println("Computadores de la orden : ");
-        for (int i = 0; i < contadorComputadoras; i++) {
+        for (int i = 0; i < this.contadorComputadoras; i++) {
             System.out.println(computadoras[i]);
         }
     }
