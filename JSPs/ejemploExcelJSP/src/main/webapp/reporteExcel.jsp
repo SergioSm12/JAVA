@@ -1,8 +1,9 @@
+<%@page errorPage="/WEB-INF/manejoErrores.jsp" %>
 <%@page import="utilerias.Conversiones, java.util.Date" %>
 <%@page contentType="application/vnd.ms-excel" %>
 <%
     String nombreArchivo = "reporte.xls";
-    response.setHeader("content-Disposition", "attachment;filename=" + nombreArchivo);
+    response.setHeader("content-Disposition", "inline;filename=" + nombreArchivo);
 %>
 <!DOCTYPE html>
 <html>
@@ -22,7 +23,7 @@
             <tr>
                 <td>1. Fundamentos de Java</td>
                 <td>Aprenderemos la sintaxis basica de Java</td>
-                <td><%= Conversiones.format(new Date())%></td>
+                <td><%= Conversiones.format("500")%></td>
             </tr>
             <tr>
                 <td>2. Programacion con Java</td>
